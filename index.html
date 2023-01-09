@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>new project</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/active.png">
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick/slick.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+   
+    <link rel="stylesheet" href="css/app.css">
+    <script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/jquery-ui-1.10.4.custom.min.js"></script>
+<script src="js/counties.js"></script>
+<script src="js/phonecode.js"></script>
+<script>
+    $(function(){
+        $('#phone').phonecode({
+            preferCo: 'ua'
+        });
+    });
+</script>
+</head>
+<body>
+        <header class="header">Поиск сокровищ!</header>        <main class="main">
+            <div class="main__step">
+                Этап 1
+            </div>
+            <div class="main__choose-hero">
+                Выбери своего героя
+            </div>
+            <div class="main__slider">
+                <div class="hero main__hero">
+                    <div class="hero__name">Асассин</div>
+                    <div class="hero__avatar">
+                        <img src="images/assasin.png" alt="">
+                        
+                    </div>
+                    <div class="hero__characteristics">
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Сила</div>
+                            <span class="hero__param">6</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Интеллект</div>
+                            <span class="hero__param">7</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Красноречие</div>
+                            <span class="hero__param">7</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Удача</div>
+                            <span class="hero__param">6</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Ловкость</div>
+                            <span class="hero__param">10</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Скорость</div>
+                            <span class="hero__param">9</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Выживаемость</div>
+                            <span class="hero__param">8</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Здоровье</div>
+                            <span class="hero__param">8</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Лечение</div>
+                            <span class="hero__param">5</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero main__hero">
+                    <div class="hero__name">Волшебник</div>
+                    <div class="hero__avatar">
+                        <img src="images/волшебник.png" alt="">
+                        
+                    </div>
+                    <div class="hero__characteristics">
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Сила</div>
+                            <span class="hero__param">4</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Интеллект</div>
+                            <span class="hero__param">7</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Красноречие</div>
+                            <span class="hero__param">8</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Удача</div>
+                            <span class="hero__param">7</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Ловкость</div>
+                            <span class="hero__param">6</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Скорость</div>
+                            <span class="hero__param">5</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Выживаемость</div>
+                            <span class="hero__param">8</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Здоровье</div>
+                            <span class="hero__param">10</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Лечение</div>
+                            <span class="hero__param">10</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero main__hero">
+                    <div class="hero__name">Анклав</div>
+                    <div class="hero__avatar">
+                        <img src="images/анклав.png" alt="">
+                        
+                    </div>
+                    <div class="hero__characteristics">
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Сила</div>
+                            <span class="hero__param">10</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Интеллект</div>
+                            <span class="hero__param">6</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Красноречие</div>
+                            <span class="hero__param">4</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Удача</div>
+                            <span class="hero__param">6</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Ловкость</div>
+                            <span class="hero__param">8</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Скорость</div>
+                            <span class="hero__param">7</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Выживаемость</div>
+                            <span class="hero__param">7</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Здоровье</div>
+                            <span class="hero__param">9</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Лечение</div>
+                            <span class="hero__param">5</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero main__hero">
+                    <div class="hero__name">Эльф</div>
+                    <div class="hero__avatar">
+                        <img src="images/эльф.png" alt="">
+                        
+                    </div>
+                    <div class="hero__characteristics">
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Сила</div>
+                            <span class="hero__param">5</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Интеллект</div>
+                            <span class="hero__param">7</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Красноречие</div>
+                            <span class="hero__param">9</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Удача</div>
+                            <span class="hero__param">8</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Ловкость</div>
+                            <span class="hero__param">10</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Скорость</div>
+                            <span class="hero__param">9</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Выживаемость</div>
+                            <span class="hero__param">7</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Здоровье</div>
+                            <span class="hero__param">5</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Лечение</div>
+                            <span class="hero__param">8</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero main__hero">
+                    <div class="hero__name">Толстяк</div>
+                    <div class="hero__avatar">
+                        <img src="images/толстяк.png" alt="">
+                        
+                    </div>
+                    <div class="hero__characteristics">
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Сила</div>
+                            <span class="hero__param">6</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Интеллект</div>
+                            <span class="hero__param">8</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Красноречие</div>
+                            <span class="hero__param">7</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Удача</div>
+                            <span class="hero__param">10</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Ловкость</div>
+                            <span class="hero__param">3</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Скорость</div>
+                            <span class="hero__param">4</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Выживаемость</div>
+                            <span class="hero__param">5</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Здоровье</div>
+                            <span class="hero__param">9</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Лечение</div>
+                            <span class="hero__param">5</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero main__hero">
+                    <div class="hero__name">Илон Маск</div>
+                    <div class="hero__avatar">
+                        <img src="images/илон.png" alt="">
+                        
+                    </div>
+                    <div class="hero__characteristics">
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Сила</div>
+                            <span class="hero__param">7</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Интеллект</div>
+                            <span class="hero__param">10</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Красноречие</div>
+                            <span class="hero__param">8</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Удача</div>
+                            <span class="hero__param">9</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Ловкость</div>
+                            <span class="hero__param">7</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Скорость</div>
+                            <span class="hero__param">6</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Выживаемость</div>
+                            <span class="hero__param">6</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Здоровье</div>
+                            <span class="hero__param">7</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Лечение</div>
+                            <span class="hero__param">5</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero main__hero">
+                    <div class="hero__name">Качок</div>
+                    <div class="hero__avatar">
+                        <img src="images/качок.png" alt="">
+                        
+                    </div>
+                    <div class="hero__characteristics">
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Сила</div>
+                            <span class="hero__param">10</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Интеллект</div>
+                            <span class="hero__param">4</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Красноречие</div>
+                            <span class="hero__param">5</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Удача</div>
+                            <span class="hero__param">6</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Ловкость</div>
+                            <span class="hero__param">7</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Скорость</div>
+                            <span class="hero__param">6</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Выживаемость</div>
+                            <span class="hero__param">6</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Здоровье</div>
+                            <span class="hero__param">9</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Лечение</div>
+                            <span class="hero__param">7</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero main__hero">
+                    <div class="hero__name">Полицейский</div>
+                    <div class="hero__avatar">
+                        <img src="images/полицейский.png" alt="">
+                        
+                    </div>
+                    <div class="hero__characteristics">
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Сила</div>
+                            <span class="hero__param">8</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Интеллект</div>
+                            <span class="hero__param">7</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Красноречие</div>
+                            <span class="hero__param">7</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Удача</div>
+                            <span class="hero__param">7</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Ловкость</div>
+                            <span class="hero__param">6</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Скорость</div>
+                            <span class="hero__param">7</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Выживаемость</div>
+                            <span class="hero__param">7</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Здоровье</div>
+                            <span class="hero__param">6</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Лечение</div>
+                            <span class="hero__param">5</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero main__hero">
+                    <div class="hero__name">Ботан</div>
+                    <div class="hero__avatar">
+                        <img src="images/ботан.png" alt="">
+                        
+                    </div>
+                    <div class="hero__characteristics">
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Сила</div>
+                            <span class="hero__param">4</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Интеллект</div>
+                            <span class="hero__param">10</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Красноречие</div>
+                            <span class="hero__param">5</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Удача</div>
+                            <span class="hero__param">6</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Ловкость</div>
+                            <span class="hero__param">6</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Скорость</div>
+                            <span class="hero__param">6</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Выживаемость</div>
+                            <span class="hero__param">9</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Здоровье</div>
+                            <span class="hero__param">7</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Лечение</div>
+                            <span class="hero__param">6</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero main__hero">
+                    <div class="hero__name">Мафиози</div>
+                    <div class="hero__avatar">
+                        <img src="images/мафиози.png" alt="">
+                        
+                    </div>
+                    <div class="hero__characteristics">
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Сила</div>
+                            <span class="hero__param">7</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Интеллект</div>
+                            <span class="hero__param">7</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Красноречие</div>
+                            <span class="hero__param">6</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Удача</div>
+                            <span class="hero__param">10</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Ловкость</div>
+                            <span class="hero__param">9</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Скорость</div>
+                            <span class="hero__param">7</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Выживаемость</div>
+                            <span class="hero__param">6</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Здоровье</div>
+                            <span class="hero__param">7</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Лечение</div>
+                            <span class="hero__param">5</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero main__hero">
+                    <div class="hero__name">Лара Крофт</div>
+                    <div class="hero__avatar">
+                        <img src="images/лара.png" alt="">
+                        
+                    </div>
+                    <div class="hero__characteristics">
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Сила</div>
+                            <span class="hero__param">7</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Интеллект</div>
+                            <span class="hero__param">8</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Красноречие</div>
+                            <span class="hero__param">5</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Удача</div>
+                            <span class="hero__param">6</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Ловкость</div>
+                            <span class="hero__param">10</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Скорость</div>
+                            <span class="hero__param">9</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Выживаемость</div>
+                            <span class="hero__param">8</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Здоровье</div>
+                            <span class="hero__param">6</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Лечение</div>
+                            <span class="hero__param">5</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero main__hero">
+                    <div class="hero__name">Бомж</div>
+                    <div class="hero__avatar">
+                        <img src="images/бомж.png" alt="">
+                        
+                    </div>
+                    <div class="hero__characteristics">
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Сила</div>
+                            <span class="hero__param">6</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Интеллект</div>
+                            <span class="hero__param">5</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Красноречие</div>
+                            <span class="hero__param">8</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Удача</div>
+                            <span class="hero__param">10</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Ловкость</div>
+                            <span class="hero__param">6</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Скорость</div>
+                            <span class="hero__param">5</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Выживаемость</div>
+                            <span class="hero__param">10</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Здоровье</div>
+                            <span class="hero__param">5</span>
+                        </div>
+                        <div class="hero__characteristics-group">
+                            <div class="hero__characteristics-title">Лечение</div>
+                            <span class="hero__param">7</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="btn__group">
+            <button type="button" class="hero__apply hero__apply_this">Выбрать этого</button>
+            <button type="button" class="hero__apply hero__apply_random">Выбрать случайного</button>
+            </div>
+        </main>        <div class="step2 hide">
+            <div class="main__step">
+                Этап 2
+            </div>
+            <div class="main__choose-hero">
+                Распределение характеристик
+                <div class="name"></div>
+            </div>
+            <div class="step2__hero"></div>
+            <div class="step2__exp">Свободный опыт: <span class="step2__exp-val">12</span></div>
+        </div>
+        
+        <div class="step3 hide">
+            <div class="main__step">
+                Этап 3
+            </div>
+            <div class="main__choose-hero">
+                Карта 1
+                <div class="name"></div>
+            </div>
+            <div class="step3__wrapper">
+                <div class="step3__hero"></div>
+                <div class="step3__map"></div>
+                <div class="step3__info">
+                    
+                    <div class="step3__text">
+                        <span>Шансы на успех: <span class="step__chance">20</span>%</span>
+                    </div>
+                </div>
+        
+            </div>
+            <button class="step2__next">Продолжить</button>
+        </div>    
+	<script src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="js/slick/slick.min.js"></script>
+    <script src="js/jquery.maskedinput.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
