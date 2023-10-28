@@ -1010,6 +1010,9 @@ select::-ms-expand {
     margin-bottom: 10px;
   }
 }
+.product__card-message__link {
+  color: red;
+}
 .product__card-buy {
   display: block;
   padding: 20px;
