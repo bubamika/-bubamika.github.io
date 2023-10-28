@@ -990,7 +990,7 @@ select::-ms-expand {
   left: 0;
   right: 0;
   bottom: 0;
-  top: -200%;
+  top: -300%;
   margin: auto;
   max-width: 80%;
   height: max-content;
