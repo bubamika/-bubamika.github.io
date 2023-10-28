@@ -1027,7 +1027,7 @@ select::-ms-expand {
 @media(max-width: 768px){
   .product__card-buy{
     font-size: 20px;
-    margin-top: 10px;
+    margin-top: 30px;
   }
   
 }
