@@ -1010,6 +1010,9 @@ select::-ms-expand {
     margin-bottom: 10px;
   }
 }
+.product__card-message__link:visited,
+.product__card-message__link:active,
+.product__card-message__link:focus,
 .product__card-message__link {
   color: red;
 }
