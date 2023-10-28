@@ -1001,6 +1001,12 @@ select::-ms-expand {
  margin-bottom: 30px;
  display: block;
 }
+@media(max-width: 768px){
+  .product__card-message span{
+    font-size: 20px
+  }
+  
+}
 .product__card-buy {
   display: block;
   padding: 20px;
@@ -1008,6 +1014,12 @@ select::-ms-expand {
   color: #fff;
   border-radius: 10px;
   margin-top: 30px;
+}
+@media(max-width: 768px){
+  .product__card-buy{
+    font-size: 20px
+  }
+  
 }
 .product__card-buy:focus,
 .product__card-buy:visited {
