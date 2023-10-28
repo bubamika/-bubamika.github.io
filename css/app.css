@@ -1002,8 +1002,9 @@ select::-ms-expand {
  display: block;
 }
 @media(max-width: 768px){
-  .product__card-message span{
+  .product__card-message {
     font-size: 20px;
+    max-width: 90%;
   }
   product__card-message span{
     margin-bottom: 10px;
